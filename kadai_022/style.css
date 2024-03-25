@@ -11,7 +11,6 @@ body{
 }
 a{
   font-size: 20px;
-  color:rgb(255, 255, 255);
 }
 header{
   margin:0 0 20px 0; 
@@ -52,13 +51,13 @@ footer{
   background-color: RGB(244, 79, 79);
   text-align: center;
 }
-/* a:link{
+a:link{
   color:rgb(255, 255, 255);
-} */
-a:hover{
+}
+a:visited{
   color:rgb(193, 234, 251);
 }
-a:active{
+a:hover{
   color:rgb(245, 178, 168);
 }
 @media screen and (max-width: 768px){
